@@ -8,3 +8,6 @@ int amountOfDigit(int number);
 
 // invert number
 int invertedNumber(int number);
+
+//
+int smartInvertedNumber(int number);

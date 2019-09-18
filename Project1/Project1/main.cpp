@@ -5,6 +5,8 @@ using namespace std;
 
 int main()
 {
-	cout << amountOfDigit(123) + sumOfDigit(321);
+	int x = 10;
+	cout << x * x + 1 << endl;
+	cout << smartInvertedNumber(1234);
 	return 0;
 }
