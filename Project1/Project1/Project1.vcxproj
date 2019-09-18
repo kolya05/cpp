@@ -125,9 +125,13 @@
   <ItemGroup>
     <ClCompile Include="integerNumbers.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="max.cpp" />
+    <ClCompile Include="stuff.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="integerNumbers.h" />
+    <ClInclude Include="max.h" />
+    <ClInclude Include="stuff.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,3 +1,8 @@
+#include "max.h"
+#include <iostream>
+
+using namespace std;
+
 int sumOfDigit(int number)
 {
 	int sum = 0;
@@ -50,4 +55,41 @@ int smartInvertedNumber(int number)
 		number /= 10;
 	}
 	return n;
+}
+
+int gcd(int number1, int number2)
+{
+	int r = 1;
+	for (int i = 1; i <= min(number1, number2); i++)
+	{
+		if (number1 % i == 0 && number2 % i == 0)
+		{
+			r = i;
+		}
+	}
+	return r;
+}
+
+int euclid(int number1, int number2)
+{
+	int iterationAmount = 0;
+	if (number2 > number1)
+	{
+		int temp = number1;
+		number1 = number2;
+		number2 = temp;
+	} 
+	int q = number1 / number2;
+	int r = number1 % number2;
+	while (r != 0)
+	{
+		++iterationAmount;
+		int temp = number1;
+		number1 = number2;
+		number2 = temp % number2;
+		q = number1 / number2;
+		r = number1 % number2;
+	}
+	cout << iterationAmount << endl;
+	return number2;
 }

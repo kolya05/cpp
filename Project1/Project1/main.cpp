@@ -5,8 +5,7 @@ using namespace std;
 
 int main()
 {
-	int x = 10;
-	cout << x * x + 1 << endl;
-	cout << smartInvertedNumber(1234);
+	cout << euclid(1071, 462);
+
 	return 0;
 }

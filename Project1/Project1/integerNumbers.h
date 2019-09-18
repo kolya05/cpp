@@ -11,3 +11,6 @@ int invertedNumber(int number);
 
 //
 int smartInvertedNumber(int number);
+
+// guess what
+int euclid(int number1, int number2);
