@@ -133,6 +133,9 @@
     <ClInclude Include="max.h" />
     <ClInclude Include="stuff.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="hw180919.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
