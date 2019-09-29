@@ -6,5 +6,5 @@ int sumOfDigit(int number);
 // calculate number of digits
 int amountOfDigit(int number);
 
-// invert number
+// invert numberëçù
 int invertedNumber(int number);
