@@ -93,3 +93,52 @@ int euclid(int number1, int number2)
 	cout << iterationAmount << endl;
 	return number2;
 }
+
+int euclidRec(int number1, int number2)
+{
+	int a = max(number1, number2);
+	int b = min(number1, number2);
+	if (b == 0)
+	{
+		return a;
+	}
+	else
+	{
+		return euclidRec(b, a % b);
+	}
+}
+
+int euclidIter(int number1, int number2)
+{
+	int a = max(number1, number2);
+	int b = min(number1, number2);
+	while (b != 0)
+	{
+		int temp = a;
+		a = b;
+		b = temp % b;
+	}
+	return a;
+}
+
+int sumRec(int n)
+{
+	if (n == 1)
+	{
+		return 1;
+	}
+	else
+	{
+		return n + sumRec(n - 1);
+	}
+}
+
+int sumIter(int n)
+{
+	int x = 0;
+	for (int i = 1; i <= n; i++)
+	{
+		x += i;
+	}
+	return x;
+}

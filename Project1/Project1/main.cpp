@@ -1,11 +1,12 @@
 #include <iostream>
 #include "integerNumbers.h"
+#include <ctime>
 
 using namespace std;
 
 int main()
 {
-	cout << euclid(1071, 462);
+	cout << sumIter(6);
 
 	return 0;
 }
