@@ -123,15 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="extremum.cpp" />
     <ClCompile Include="integerNumbers.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="max.cpp" />
+    <ClCompile Include="myMath.cpp" />
     <ClCompile Include="stuff.cpp" />
+    <ClCompile Include="tasks.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="integerNumbers.h" />
-    <ClInclude Include="max.h" />
-    <ClInclude Include="stuff.h" />
+    <ClInclude Include="myMath.h" />
+    <ClInclude Include="tasks.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="hw180919.txt" />

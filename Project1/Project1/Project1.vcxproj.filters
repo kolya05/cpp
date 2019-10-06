@@ -21,10 +21,16 @@
     <ClCompile Include="integerNumbers.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="max.cpp">
+    <ClCompile Include="stuff.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="stuff.cpp">
+    <ClCompile Include="myMath.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="extremum.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,10 +38,10 @@
     <ClInclude Include="integerNumbers.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="max.h">
+    <ClInclude Include="tasks.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="stuff.h">
+    <ClInclude Include="myMath.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
