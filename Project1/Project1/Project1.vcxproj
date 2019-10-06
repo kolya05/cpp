@@ -129,11 +129,14 @@
     <ClCompile Include="myMath.cpp" />
     <ClCompile Include="stuff.cpp" />
     <ClCompile Include="tasks.cpp" />
+    <ClCompile Include="testDigits.cpp" />
+    <ClCompile Include="testDivision.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="integerNumbers.h" />
     <ClInclude Include="myMath.h" />
     <ClInclude Include="tasks.h" />
+    <ClInclude Include="test.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="hw180919.txt" />
