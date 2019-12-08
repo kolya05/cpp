@@ -70,6 +70,26 @@ namespace integerNumbers
 
 		int euclid(int number1, int number2)
 		{
+			/*int a = number1;
+			int b = number2;*/
+			number1 = myMath::extremum::max(number1, number2);
+			number2 = myMath::extremum::min(number1, number2);
+
+			// int count = 0;
+			while (number2 != 0)
+			{
+				// ++count;
+				int temp = number1;
+				number1 = number2;
+				number2 = temp % number2;
+			}
+
+			// cout << "Euclid(" << a << "; " << b << "): iterations amount = " << count << endl;
+			return number1;
+		}
+
+		int euclidFromWiki(int number1, int number2)
+		{
 			int iterationAmount = 0;
 			if (number2 > number1)
 			{
@@ -106,7 +126,7 @@ namespace integerNumbers
 			}
 		}
 
-		int euclidIter(int number1, int number2)
+		int euclidIter(int const number1, int const number2)
 		{
 			int a = myMath::extremum::max(number1, number2);
 			int b = myMath::extremum::min(number1, number2);

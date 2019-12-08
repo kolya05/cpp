@@ -134,6 +134,7 @@
     <ClCompile Include="testDivision.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="conflict.h" />
     <ClInclude Include="integerNumbers.h" />
     <ClInclude Include="myMath.h" />
     <ClInclude Include="tasks.h" />

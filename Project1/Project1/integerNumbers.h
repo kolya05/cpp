@@ -10,10 +10,9 @@ namespace integerNumbers
 		// calculate number of digits
 		int amountOfDigit(int number);
 
-<<<<<<< HEAD
-// invert numberëçù
-int invertedNumber(int number);
-=======
+		// invert numbe
+		int invertedNumber(int number);
+
 		// invert number
 		int invertedNumber(int number);
 
@@ -26,8 +25,11 @@ int invertedNumber(int number);
 		// stupid NOD
 		int gcd(int number1, int number2);
 
-		// euclid wiki
+		// euclid
 		int euclid(int number1, int number2);
+
+		// euclid wiki
+		int euclidFromWiki(int number1, int number2);
 
 		// euclid recursion
 		int euclidRec(int number1, int number2);
@@ -36,4 +38,3 @@ int invertedNumber(int number);
 		int euclidIter(int number1, int number2);
 	}
 }
->>>>>>> 1ef3578a7952031b5a88e6c7c66262dee1c7ba9b
